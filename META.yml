@@ -1,12 +1,12 @@
 ---
 name: Task-Smoke
-version: 0.10
+version: 0.11
 author:
   - 'Gaal Yahas, C<< <gaal at forum2.org> >>'
 abstract: Install modules required for Pugs-like smoke system
 license: perl
 requires:
-  Best: 0.05
+  Best: 0.06
   MKDoc::XML: 0
   Petal: 0
   Test::TAP::HTMLMatrix: 0
@@ -15,5 +15,5 @@ requires:
 provides:
   Task::Smoke:
     file: lib/Task/Smoke.pm
-    version: 0.10
+    version: 0.11
 generated_by: Module::Build version 0.26

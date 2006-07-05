@@ -10,7 +10,7 @@ requires     ( 'MKDoc::XML'            => 0 ) ;
 requires     ( 'Petal'                 => 0 ) ;
 requires     ( 'Test::TAP::Model'      => 0 ) ;
 requires     ( 'Test::TAP::HTMLMatrix' => 0 ) ;
-requires     ( 'Best'                  => 0.05 ) ;
+requires     ( 'Best'                  => 0.06 ) ;
 
 if ( can_cc() ) {
     requires('YAML::Syck' => '0.27') unless can_use('YAML' => 0.35);
