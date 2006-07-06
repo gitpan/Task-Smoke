@@ -13,7 +13,7 @@ Version 0.10
 
 =cut
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 =head1 SYNOPSIS
 
@@ -25,10 +25,10 @@ L<Perl6::Pugs> is an experimental implementation of Perl 6. It does
 not have many prerequisites by itself: merely perl 5.6.1 or 5.8.3,
 and a decently new ExtUtils::MakeMaker.
 
-If you wish to run the powerful smoke test system that comes with
-pugs, however, you'll need these modules. Once installed, you can
-run a smoke test and generate a colorful smoke.html by running
-the following command in the pugs build directory:
+If you wish to run the powerful smoke test system that comes with pugs,
+however, you'll need these modules. Once installed, you can run a smoke
+test and generate a colorful smoke.html by running the following command
+in the pugs build directory:
 
   make smoke
 
@@ -39,14 +39,14 @@ especially if you run on an uncommon platform:
 
 =head2 Non-Pugs usage
 
-You are invited to use this system in your Perl 5 projects,
-though currently this may require some tweaking. Plase see the talk
+You are invited to use this system in your Perl 5 projects, though
+currently this may require some tweaking. Please see the talk
 L<http://perlcabal.org/~gaal/pugstest/start.html>, "Reusing the Pugs
 Smoke System", for this end.
 
 =head2 Note on YAML providers
 
-This bundle installs either YAML::Syck or YAML.pm, depending on your build
+This bundle installs either YAML::Syck or YAML.pm, depending on your
 environment. YAML::Syck is faster, but requires a c build capabilities.
 
 =head1 AUTHOR
@@ -61,16 +61,12 @@ dependencies of this module.
 Please report any bugs or feature requests to
 C<bug-task-smoke at rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Task-Smoke>.
-I will be notified, and then you'll automatically be notified of progress on
-your bug as I make changes.
+
+Or better, come to the C<#perl6> channel on C<irc.freenode.org>.
 
 =head1 SUPPORT
 
-You can find documentation for this module with the perldoc command.
-
-    perldoc Task::Smoke
-
-You can also look for information at:
+You can look for information at:
 
 =over 4
 
