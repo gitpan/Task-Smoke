@@ -1,6 +1,6 @@
 ---
 name: Task-Smoke
-version: 0.12
+version: 0.13
 author:
   - 'Gaal Yahas, C<< <gaal at forum2.org> >>'
 abstract: Install modules required for Pugs-like smoke system
@@ -15,5 +15,5 @@ requires:
 provides:
   Task::Smoke:
     file: lib/Task/Smoke.pm
-    version: 0.12
+    version: 0.13
 generated_by: Module::Build version 0.26

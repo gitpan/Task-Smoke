@@ -1,5 +1,9 @@
 Revision history for Task-Smoke
 
+0.13    2006-07-09
+        Include inc/ in distribution (closes
+        http://rt.cpan.org/Public/Bug/Display.html?id=20372)
+
 0.10    2006-07-05
         First version, superseding Bundle::Pugs::SmokeKit
 
