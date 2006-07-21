@@ -2,7 +2,6 @@ use inc::Module::Install;
 
 name         ( 'Task-Smoke'                   );
 all_from     ( 'lib/Task/Smoke.pm'            );
-auto_install (                                );
 
 # All the things we need for Foo
 requires     ( 'URI'                   => 0 ) ;
@@ -20,5 +19,6 @@ else {
 }
 
 sign();
+auto_install();
 
 &WriteAll;
