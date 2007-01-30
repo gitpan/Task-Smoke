@@ -1,5 +1,11 @@
 Revision history for Task-Smoke
 
+0.15    2007-01-30
+        Require Test::TAP::Model 0.08 or higher, which works with the
+        new incompatible API of Test::Harness 2.64. Since the incompatibility
+        is bidirectional, this eventually also requires that version of
+        Test::Harness.
+
 0.14    2006-09-21
         Fix order of requires() and auto_install() to actually do
         something. Reported by rodi++ and fixed by audreyt++.

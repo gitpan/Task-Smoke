@@ -6,3 +6,5 @@
 ^Build$
 ^_build/
 ^Task-Smoke
+\.swp$
+\.bak$

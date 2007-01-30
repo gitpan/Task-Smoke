@@ -7,7 +7,7 @@ all_from     ( 'lib/Task/Smoke.pm'            );
 requires     ( 'URI'                   => 0 ) ;
 requires     ( 'MKDoc::XML'            => 0 ) ;
 requires     ( 'Petal'                 => 0 ) ;
-requires     ( 'Test::TAP::Model'      => 0 ) ;
+requires     ( 'Test::TAP::Model'      => 0.08 ) ;
 requires     ( 'Test::TAP::HTMLMatrix' => 0 ) ;
 requires     ( 'Best'                  => 0.06 ) ;
 
