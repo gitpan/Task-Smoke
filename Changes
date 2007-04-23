@@ -1,5 +1,8 @@
 Revision history for Task-Smoke
 
+0.16    2007-04-22
+        Require YAML::Syck 0.85 when 
+
 0.15    2007-01-30
         Require Test::TAP::Model 0.08 or higher, which works with the
         new incompatible API of Test::Harness 2.64. Since the incompatibility

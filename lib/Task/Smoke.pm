@@ -9,7 +9,7 @@ Task::Smoke - Install modules required for Pugs-like smoke system
 
 =cut
 
-our $VERSION = '0.15';
+our $VERSION = '0.16';
 
 =head1 SYNOPSIS
 
@@ -21,17 +21,19 @@ L<Perl6::Pugs> is an experimental implementation of Perl 6. It does
 not have many prerequisites by itself: merely perl 5.6.1 or 5.8.3,
 and a decently new ExtUtils::MakeMaker.
 
-If you wish to run the powerful smoke test system that comes with pugs,
+If you wish to run the powerful smoke test system that comes with Pugs,
 however, you'll need these modules. Once installed, you can run a smoke
 test and generate a colorful smoke.html by running the following command
-in the pugs build directory:
+in the Pugs build directory:
 
   make smoke
 
 You are encouraged to submit your results to the public smokeserver,
 especially if you run on an uncommon platform:
 
-  perl util/smokeserv/smoke-client.pl smoke.html
+  make upload-smoke
+
+Existing smoke reports can be viewed at L<http://smoke.pugscode.org>.
 
 =head2 Non-Pugs usage
 
@@ -43,7 +45,7 @@ Smoke System", for this end.
 =head2 Note on YAML providers
 
 This bundle installs either YAML::Syck or YAML.pm, depending on your
-environment. YAML::Syck is faster, but requires a c build capabilities.
+environment. YAML::Syck is faster, but requires c build capabilities.
 
 =head1 AUTHOR
 
@@ -88,7 +90,7 @@ L<http://search.cpan.org/dist/Task-Smoke>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2006 Gaal Yahas, all rights reserved.
+Copyright 2006, 2007 Gaal Yahas, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
