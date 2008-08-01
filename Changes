@@ -1,7 +1,10 @@
 Revision history for Task-Smoke
 
+0.17    2008-08-01
+        Require Time::Out.
+
 0.16    2007-04-22
-        Require YAML::Syck 0.85 when 
+        Require YAML::Syck 0.85 when can_cc and YAML is too old.
 
 0.15    2007-01-30
         Require Test::TAP::Model 0.08 or higher, which works with the
