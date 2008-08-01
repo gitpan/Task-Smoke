@@ -1,5 +1,8 @@
 Revision history for Task-Smoke
 
+0.18    2008-08-01
+        Require Test::Harness::Results.
+
 0.17    2008-08-01
         Require Time::Out.
 

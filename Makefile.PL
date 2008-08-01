@@ -3,13 +3,15 @@ use inc::Module::Install;
 name         ('Task-Smoke');
 all_from     ('lib/Task/Smoke.pm');
 
-# All the things we need for Foo
-requires     ('URI'                   => 0);
-requires     ('MKDoc::XML'            => 0);
-requires     ('Petal'                 => 0);
-requires     ('Test::TAP::Model'      => 0.08);
-requires     ('Test::TAP::HTMLMatrix' => 0);
-requires     ('Best'                  => 0.06) ;
+# All the things we need for testing Pugs
+requires     ('URI'                    => 0);
+requires     ('MKDoc::XML'             => 0);
+requires     ('Petal'                  => 0);
+requires     ('Test::TAP::Model'       => 0.08);
+requires     ('Test::TAP::HTMLMatrix'  => 0);
+requires     ('Best'                   => 0.06) ;
+requires     ('Test::Harness::Results' => 0);
+requires     ('Time::Out'              => 0);
 
 # Choosing a YAML provider's a bit tricky. If we have YAML::Syck,
 # demand the proper version so that various users don't have to worry
