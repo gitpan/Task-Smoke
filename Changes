@@ -1,5 +1,8 @@
 Revision history for Task-Smoke
 
+0.19    2008-08-01
+        Aaargh, a stale META.yml was keeping the version at 0.16.
+
 0.18    2008-08-01
         Require Test::Harness::Results.
 

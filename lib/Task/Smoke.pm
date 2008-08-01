@@ -9,7 +9,7 @@ Task::Smoke - Install modules required for Pugs-like smoke system
 
 =cut
 
-our $VERSION = '0.18';
+our $VERSION = '0.19';
 
 =head1 SYNOPSIS
 
